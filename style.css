@@ -735,10 +735,7 @@ h4 {
     margin-bottom: 14px;
     margin-top: 24px;
 }
-.black{
-    color:#FFF!important;
-    font-size: 18px;
-}
+
 .white {
 font-size: 20px;}
 
@@ -779,8 +776,7 @@ font-size: 20px;}
 }
 
 .tc-white {
-    color: #000000!important;
-    
+    color: #F3976C!important;
 }
 
 .btn-atomic-tangerine {
