@@ -645,7 +645,6 @@ h3,
 h4,
 h5,
 h6,
-p,
 label,
 .btn {
     font-family: "helvetica";
@@ -655,6 +654,9 @@ label,
 }
 a{
     color: black;
+}
+.black{
+    color: white;
 }
 .container {
     max-width: 1000px;
