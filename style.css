@@ -316,6 +316,8 @@ a:hover {
 }
 
 .navbar .nav {
+    list-style:none;
+    text-decoration: none!important;
     padding-top: 2px;
     margin-right: -16px;
     float: right;
@@ -323,8 +325,10 @@ a:hover {
 }
 
 .nav > li {
+    text-decoration: none!important;
     float: left;
     margin-top: 4px;
+    margin-right:20px;
     font-size: 16px;
 }
 
@@ -366,7 +370,7 @@ a:hover {
     .site-navigation {
         position: absolute;
         top: 50%;
-        right: 20px;
+        right: 100px;
         transform: translate(0, -50%);
         -webkit-transform: translateY(-50%);
     }
@@ -655,6 +659,7 @@ h6,
     color: #000000;
 }
 a{
+    text-decoration: none!important;
     color: black;
 }
 .black{
@@ -902,6 +907,9 @@ h4 {
         overflow-x: hidden;
         position: relative;
     }
+    .keywords{
+        padding:10px;
+    }
     h1,
     h2,
     h3,
@@ -932,12 +940,11 @@ h4 {
         -ms-transform: none;
     }
     .nav > li {
-        margin-top: 0;
         border-bottom: 1px solid rgba(0, 0, 0, .1);
         background: rgba(0, 0, 0, .05);
         text-align: left;
         padding-left: 15px;
-        width: 100%;
+        width: 30%;
     }
     .nav > li:hover {
         background: rgba(0, 0, 0, .08);
@@ -1037,6 +1044,15 @@ h4 {
 }
 
 @media (max-width: 400px) {
+    .keywords{
+        padding:10px;
+    }
+    .logo{
+        width: 100px;
+    }
+    img{
+        width: 100%;
+    }
     .bloc {
         padding-left: 0;
         padding-right: 0;
@@ -1044,6 +1060,12 @@ h4 {
 }
 
 @media (max-width: 767px) {
+    img {
+         width: 100%;
+    }
+    .logo{
+        width: 100px;
+    }
     .bloc-mob-center-text {
         text-align: center;
     }
