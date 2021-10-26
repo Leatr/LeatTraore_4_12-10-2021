@@ -304,10 +304,6 @@ a:hover {
     display: inline;
 }
 
-.navbar-brand img[src$=svg] {
-    min-width: 100px;
-}
-
 .nav-center .navbar-brand img {
     margin: 0;
 }
