@@ -103,11 +103,11 @@ a:hover {
 
 .magimg{
 	width: 1003px;
-	height: 1003px;
+	height: 330px;
 }
 .photoimg{
 	width: 628px;
-	height: 628px;
+	height: 330px;
 }
 .materialimg{
 	width: 320px;
@@ -118,7 +118,9 @@ a:hover {
 	width: 320px;
 	height:320px;
 }
-
+.img-responsive{
+	width: 100%;
+}
 .texture-paper::before {
 	background: url("img/texture-paper.png");
 	background-size: 280px 280px
