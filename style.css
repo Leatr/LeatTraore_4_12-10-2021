@@ -100,10 +100,25 @@ a:hover {
     width: 100px;
     height: 100px;
 }
-.img-responsive{
-    width:300px;
-    height:300px;
+
+.magimg{
+	width: 1003px;
+	height: 1003px;
 }
+.photoimg{
+	width: 628px;
+	height: 628px;
+}
+.materialimg{
+	width: 320px;
+	height:320px;
+}
+
+.bureauimg{
+	width: 320px;
+	height:320px;
+}
+
 .texture-paper::before {
 	background: url("img/texture-paper.png");
 	background-size: 280px 280px
@@ -426,8 +441,8 @@ a:hover {
     height: 100px;
 }
 .img-responsive{
-    width:300px;
-    height:300px;
+    width:100%;
+    height:350px;
 }
 .nav>li>.dropdown a {
 	background: none!important;
